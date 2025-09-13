@@ -1,9 +1,8 @@
-const arr = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
-let out = '';
-
-for (let i = 0; i < arr.length; i++) {
-  out += arr[i];
-  if (i !== arr.length - 1) out += '\n';
+const languages = [
+  'C is fun',
+  'Python is cool',
+  'JavaScript is amazing'
+];
+for (let i = 0; i < languages.length; i++) {
+  console.log(languages[i]); 
 }
-
-console.log(out);
